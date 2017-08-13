@@ -127,8 +127,12 @@ li {
 }
 
 footer {
-    background-color: #F3F3F3;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
