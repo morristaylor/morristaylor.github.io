@@ -243,12 +243,12 @@ hr {
 }
 
 footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background:#999;
+width:270px;
+float:left;
+position:fixed;
+bottom:10px;
+webkit-font-smoothing:subpixel-antialiased;
+ 
 }
 
 @media print, screen and (max-width: 960px) {
