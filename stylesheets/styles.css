@@ -242,11 +242,12 @@ hr {
 }
 
 footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position:fixed;
-    bottom:0;
-    width:100%;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
 }
 
 @media print, screen and (max-width: 960px) {
