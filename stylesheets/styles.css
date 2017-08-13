@@ -78,7 +78,7 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   text-decoration: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: dashed;
 }
 
 h2 {
