@@ -121,16 +121,3 @@ SOFTWARE.
 .pl-mo /* meta.output */ {
   color: #1d3e81;
 }
-
-li {
-  list-style-type: none;
-}
-
-footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position:fixed;
-    bottom:0;
-    width:100%;
-}
-
