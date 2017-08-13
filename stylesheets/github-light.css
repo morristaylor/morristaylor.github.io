@@ -126,10 +126,9 @@ li {
   list-style-type: none;
 }
 
-#fix-footer{
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 35px;
-    width: 100%;
+footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
 
