@@ -241,11 +241,11 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -322,3 +322,8 @@ footer {
     color:#444;
   }
 }
+
+li {
+  list-style-type: none;
+}
+
