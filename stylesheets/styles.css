@@ -255,7 +255,7 @@ webkit-font-smoothing:subpixel-antialiased;
     margin:0;
   }
 
-  header, section, footer {
+  header, section, {
     float:none;
     position:static;
     width:auto;
