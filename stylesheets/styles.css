@@ -242,14 +242,11 @@ hr {
 }
 
 footer {
-position:fixed;
-
+  position:fixed;
   width: 80%;
   margin:0 auto;
-
-bottom:10px;
-webkit-font-smoothing:subpixel-antialiased;
- 
+  bottom:25px;
+  webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
