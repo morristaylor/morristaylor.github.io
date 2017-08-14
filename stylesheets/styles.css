@@ -243,7 +243,10 @@ hr {
 
 footer {
 position:fixed;
-padding:50px;
+
+  width: 80%;
+  margin:0 auto;
+
 bottom:10px;
 webkit-font-smoothing:subpixel-antialiased;
  
