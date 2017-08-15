@@ -78,6 +78,7 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   text-decoration: underline;
+  color: #3c485b;
 }
 
 h2 {
