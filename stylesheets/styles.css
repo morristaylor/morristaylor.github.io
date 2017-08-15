@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-  color:#35d484;
+  color:#3c485b;
 }
 
 a small {
@@ -242,6 +242,7 @@ hr {
 }
 
 footer {
+  color: #3c485b;
   position:fixed;
   width: 80%;
   margin:0 auto;
