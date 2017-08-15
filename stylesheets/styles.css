@@ -89,7 +89,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#412c84;
+  color:#3c485b;
   text-decoration:none;
 }
 
@@ -326,5 +326,6 @@ footer {
 
 li {
   list-style-type: none;
+  color: #3c485b;
 }
 
