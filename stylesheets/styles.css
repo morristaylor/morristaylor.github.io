@@ -1,0 +1,68 @@
+/* main elements */
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.25em;
+  color: black;
+}
+
+h1 {
+  text-decoration: underline;
+  text-shadow: .05em .05em tomato;
+}
+
+/* classes */
+
+.side-nav,
+.main-footer {
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  list-style: none;
+  /*border: solid red 2px;*/
+}
+
+
+.main-footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: .75em;
+}
+
+/* link pseudo classes */
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: tomato;
+}
+
+/* resize or small devices */
+
+@media only screen and (min-width: 651px) {
+  .side-nav {
+  max-width: 33%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+.side-nav {
+    max-width: 90%;
+    margin: auto;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+.main-footer{
+  display: none;
+  }
+}
