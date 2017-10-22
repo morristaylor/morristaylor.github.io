@@ -1,5 +1,9 @@
 /* main elements */
 
+* box-sizing: {
+    border-box;
+  }
+
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1.25em;
@@ -29,14 +33,13 @@ h1 {
   padding-left: 10%;
   padding-bottom: 2%;
   list-style: none;
-  /*border: solid red 2px;*/
 }
 
 
 .main-footer {
   position: absolute;
   bottom: 10px;
-  font-size: .75em;
+  font-size: .75rem;
 }
 
 /* link pseudo classes */
@@ -52,11 +55,12 @@ a:visited {
 
 a:hover {
   color: tomato;
+  border: 1px dashed black;
 }
 
 /* resize or small devices */
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 850px) {
   .side-nav {
   max-width: 33%;
   }
@@ -67,9 +71,13 @@ a:hover {
 .side-nav {
     max-width: 90%;
     margin: auto;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
+    padding: 0;
     text-align: center;
+  }
+
+  .side-nav a {
+    padding: 5px 100px;
+    line-height: 2rem;
   }
 
 .main-footer{
