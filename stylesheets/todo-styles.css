@@ -59,7 +59,7 @@ button {
 
 #howdy {
   line-height: 1.4;
-  text-decoration: underline;
+  font-style: italic;
 }
 
 a {
