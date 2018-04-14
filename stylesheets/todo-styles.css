@@ -62,6 +62,10 @@ button {
   text-decoration: underline;
 }
 
+a {
+  color: black;
+}
+
 a:visited {
     color: tomato;
 }
