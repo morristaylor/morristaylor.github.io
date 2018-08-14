@@ -6,7 +6,7 @@
     <title>Taylor Morris</title>
     <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
   </head>
-  <body>  
+  <body>
     <div class="side-nav">
       <h1>Taylor Morris</h1>
       <h2>Portland resident, fledgling developer, tolerable writer</h2>
@@ -18,9 +18,30 @@
         <li><a href="../resume.pdf">Resume</a></li>
       </div>
     </div>
+    <script type="text/javascript">
+    // 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1534280151.2
+    !function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+    }function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+    n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+    v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js',
+      'UA', {
+        appKey: '6wY6UGf1ScqLxF8-vmBHkQ',
+        token: 'MTo2d1k2VUdmMVNjcUx4Rjgtdm1CSGtROlBuNTdvOUdSY0RHMmJDY0N1bnNkYVB0NDhHeHFGUkwtS3I5QktQOWJxYmM',
+        vapidPublicKey: 'BEpIXOBWX2T1SY6bxA3ZxHgy8-p36pt8qvfDZVEzUyeD5YK1rJtYqHBaGPQIe8K8jkpXN9aoi_HIitgJmF7Zp7E='
+      });
+
+    </script>
+    <button id="register">Sign up for notifications</button>
+    <script>
+       document.getElementById('register').addEventListener('click', function(){
+         UA.then(function(sdk) {
+          sdk.register()
+         })
+       })
+    </script>
   </body>
   <footer class="main-footer">
-    Last update: July 2018 // started using HackerRank and added my profile URL
+    Last update: July 2x018 // started using HackerRank and added my profile URL
     <!-- <script language="Javascript">
     document.write("Last update: " + document.lastModified);
     </script> -->
