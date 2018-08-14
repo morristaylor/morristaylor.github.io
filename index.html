@@ -8,6 +8,16 @@
   </head>
   <body>
     <div class="side-nav">
+
+      <button id="register">Sign up for notifications</button>
+      <script>
+         document.getElementById('register').addEventListener('click', function(){
+           UA.then(function(sdk) {
+            sdk.register()
+           })
+         })
+      </script>
+
       <h1>Taylor Morris</h1>
       <h2>Portland resident, fledgling developer, tolerable writer</h2>
       <div class="list-nav">
