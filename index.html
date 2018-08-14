@@ -31,20 +31,36 @@
       });
 
     </script>
-    <button id="register">Sign up for notifications</button>
+    <div id="notify" class="side-nav">
+    <h4>UA Web Notify</h4>
+
+    <button id="register">Sign up for web notifications!</button>
+    <button id="check">Is my browser compatible with web notifications?</button>
+    <button id="whats">What's my registration status?</button>
     <script>
        document.getElementById('register').addEventListener('click', function() {
          UA.then(function(sdk) {
-          if (sdk.canRegister === false) {
+          if (sdk.isSupported === false) {
              console.log("You need to use Chrome or Firefox to enable web notifications")
              alert("You need to use Chrome or Firefox to enable web notifications")
           }
-          if (sdk.canRegister) {
+          else {
             sdk.register()
           }
          })
        })
+       document.getElementById('whats').addEventListener('click', function() {
+         UA.then(function(sdk) {
+           alert('Channel id: '+ sdk.channel.id + '\n\nOpted in? ' + sdk.channel.optedIn)
+         })
+       })
+       document.getElementById('check').addEventListener('click', function() {
+         UA.then(function(sdk) {
+           alert(sdk.isSupported) // Returns bool
+         })
+        })
     </script>
+  </div>
   </body>
   <footer class="main-footer">
     Last update: August 2018 // testing out UA's Web Notify service
