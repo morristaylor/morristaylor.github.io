@@ -24,6 +24,17 @@ h1 {
   list-style: none;
 }
 
+#notify button {
+  color: tomato;
+  display: block;
+  line-height: 3em;
+  margin: 10px 0px;
+}
+
+#notify h4 {
+  color: tomato;
+  margin-bottom: .5em;
+}
 
 .main-footer {
   position: absolute;
@@ -64,7 +75,7 @@ a:hover {
     text-align: center;
   }
 
-  .side-nav a {
+.side-nav a {
     padding: 5px 100px;
     line-height: 2rem;
   }
@@ -72,4 +83,5 @@ a:hover {
 .main-footer{
   display: none;
   }
+
 }
