@@ -8,16 +8,6 @@
   </head>
   <body>
     <div class="side-nav">
-
-      <button id="register">Sign up for notifications</button>
-      <script>
-         document.getElementById('register').addEventListener('click', function(){
-           UA.then(function(sdk) {
-            sdk.register()
-           })
-         })
-      </script>
-
       <h1>Taylor Morris</h1>
       <h2>Portland resident, fledgling developer, tolerable writer</h2>
       <div class="list-nav">
@@ -39,6 +29,14 @@
         token: 'MTo2d1k2VUdmMVNjcUx4Rjgtdm1CSGtROlBuNTdvOUdSY0RHMmJDY0N1bnNkYVB0NDhHeHFGUkwtS3I5QktQOWJxYmM',
         vapidPublicKey: 'BEpIXOBWX2T1SY6bxA3ZxHgy8-p36pt8qvfDZVEzUyeD5YK1rJtYqHBaGPQIe8K8jkpXN9aoi_HIitgJmF7Zp7E='
       });
+    </script>
+    <button id="register">Sign up for notifications</button>
+    <script>
+       document.getElementById('register').addEventListener('click', function(){
+         UA.then(function(sdk) {
+          sdk.register()
+         })
+       })
     </script>
   </body>
   <footer class="main-footer">
