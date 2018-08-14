@@ -35,11 +35,12 @@
     <script>
        document.getElementById('register').addEventListener('click', function() {
          UA.then(function(sdk) {
+          if (sdk.canRegister === false) {
+             console.log("You need to use Chrome or Firefox to enable web notifications")
+             alert("You need to use Chrome or Firefox to enable web notifications")
+          }
           if (sdk.canRegister) {
             sdk.register()
-          }
-          if (sdk.canRegister === false) {
-            console.log("You need to use Chrome or FireFox to enable web notifications")
           }
          })
        })
