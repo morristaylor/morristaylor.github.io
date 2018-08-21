@@ -75,6 +75,16 @@ a:hover {
     text-align: center;
   }
 
+#notify {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+}
+
+button {
+  margin: 10px;
+}
+
 .side-nav a {
     padding: 5px 100px;
     line-height: 2rem;
