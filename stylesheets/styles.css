@@ -17,11 +17,16 @@ h1 {
 /* classes */
 
 .side-nav,
-.main-footer {
+.main-footer,
+.sandbox {
   padding-top: 2%;
   padding-left: 10%;
   padding-bottom: 2%;
   list-style: none;
+}
+
+.list-nav li {
+  line-height: 1.25em;
 }
 
 .main-footer {
