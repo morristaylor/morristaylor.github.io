@@ -7,7 +7,7 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1.25em;
-  color: black;
+  color: #303030;
 }
 
 h1 {
@@ -39,11 +39,11 @@ h1 {
 
 a:link{
   text-decoration: none;
-  color: black;
+  color: #303030;
 }
 
 a:visited {
-  color: black;
+  color: #303030;
 }
 
 a:hover {
