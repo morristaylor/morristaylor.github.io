@@ -16,8 +16,43 @@
         <li><a href="/resume.pdf">Resume</a></li>
       </div>
     </div>
+    <button id="register">Sign up for notifications - Powered by Airship</button>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+			  crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      // 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1559313539.74
+      !function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+      }function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+      n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+      v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+        'UA', {
+          vapidPublicKey: 'BCgf76Op1mJ0E16FKC8gmohIP2A0og8gtdOLtywecosXncpdE7ItiQbEAVGutD2-TLtUYOwfRut0OBkyeqGncIs=',
+          appKey: 'r5Mu6ifuRMG2qT3YS5628A',
+          token: 'MTpyNU11NmlmdVJNRzJxVDNZUzU2MjhBOkk3VnVxUUpNdWFlTkVMRnl3SmJRQUZoOUQxT0lyQ0dfbWNZYjlvWDJVTjg'
+        });
+      
+      </script>
+
+    <script>UA.then(function(sdk) {
+        console.log(sdk.channel.id)
+      }).catch(function(err) {
+        console.log(err)
+      })
+      
+      // Multiple calls have no additional expense.
+      UA.then(function(sdk) {
+        $('#register').show()
+        $('#register').click(function(ev) { sdk.register() })
+      })
+      
+    </script>
+
   </body>
   <footer class="main-footer">
-    Last update: 2019-02-21 // edits
+    Last update: 2019-05-31 // Airship notify
   </footer>
 </html>
