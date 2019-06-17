@@ -1,2 +1,2 @@
 # morristaylor.github.io
-Current personal home page 🏠 (undergoing revisions)
+Current personal home page 🏠 (always undergoing revisions)
